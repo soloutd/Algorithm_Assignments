@@ -70,6 +70,9 @@ public class AlgorithmDay1 {
 
             return max;
         }
+        /*
+        * this is the 3rd
+        * */
 
         public static int Algorithm_3(){
             int [] ints = RandomNumber();
