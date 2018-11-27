@@ -1,13 +1,11 @@
 package WeekOne;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
-import java.util.*;
+
 public class AlgorithmDay1 {
 
-
-
+    
         public static int Algorithm_one(){
             int [] ints = new int [1500];
 
@@ -70,7 +68,7 @@ public class AlgorithmDay1 {
 
             return max;
         }
-       
+
 
         public static int Algorithm_3(){
             int [] ints = RandomNumber();
@@ -98,7 +96,6 @@ public class AlgorithmDay1 {
 
         public static void main(String[] args) {
 
-            // write your code here
             long startTime = System.currentTimeMillis();
             System.out.println(Algorithm_one());
             long endTime = System.currentTimeMillis();
