@@ -5,13 +5,14 @@ import java.util.Random;
 
 public class AlgorithmDay1 {
 
-    
+
         public static int Algorithm_one(){
             int [] ints = new int [1500];
 
             ArrayList<Integer> evenNumbers = new ArrayList<>();
 
-            for (int i=0; i<ints.length;i++){
+            int n = ints.length;
+            for (int i=0; i<n;i++){
                 ints[i]=(int) (Math.random()*1000);
                 /*System.out.print(ints[i]+"-- ");*/
                 if(ints[i]%2==0){
@@ -21,9 +22,10 @@ public class AlgorithmDay1 {
             /*System.out.print(evenNumbers);*/
 
             int max =0;
-            for(int i=0; i<evenNumbers.size();i++){
+            n = evenNumbers.size();
+            for(int i=0; i<n;i++){
 
-                for(int j=0; j<evenNumbers.size();j++){
+                for(int j=0; j<n;j++){
                     int k = Math.abs(evenNumbers.get(i)-evenNumbers.get(j));
                     if(k>max){
                         max = k;
@@ -52,10 +54,11 @@ public class AlgorithmDay1 {
             int [] ints = RandomNumber();
 
             int max =0;
-            for(int i=0; ints.length>i;i++){
+            int n = ints.length;
+            for(int i=0; n >i;i++){
 
                 if(ints[i]%2==0){
-                    for(int j=i+1; ints.length>j;j++){
+                    for(int j=i+1; n>j;j++){
                         if(ints[j]%2==0){
                             int k = Math.abs(ints[i]-ints[j]);
                             if(k>max){
@@ -73,7 +76,8 @@ public class AlgorithmDay1 {
         public static int Algorithm_3(){
             int [] ints = RandomNumber();
             int max=-1000; int min= 1000;
-            for(int i=0; i< ints.length;i++) {
+            int n = ints.length;
+            for(int i=0; i<n ;i++) {
                 if (ints[i] % 2 == 0) {
                     if (max < ints[i]) {
                         max = ints[i];
