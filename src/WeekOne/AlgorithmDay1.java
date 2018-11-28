@@ -7,26 +7,34 @@ public class AlgorithmDay1 {
 
 
         public static int Algorithm_one(){
-            int [] ints = new int [1500];
-
-            ArrayList<Integer> evenNumbers = new ArrayList<>();
+            int [] ints = new int [1000];
 
             int n = ints.length;
+            int counter=0;
             for (int i=0; i<n;i++){
                 ints[i]=(int) (Math.random()*1000);
                 /*System.out.print(ints[i]+"-- ");*/
                 if(ints[i]%2==0){
-                    evenNumbers.add(ints[i]);
+                    counter=counter+1;
                 }
             }
-            /*System.out.print(evenNumbers);*/
+            int [] evenNumbers = new int[counter];
+            int j=0;
+            n = ints.length;
+            for (int i=0; i<n;i++){
+                if(ints[i]%2==0){
+                    evenNumbers[j] = ints[i];
+                    j=j+1;
+                }
+            }
+           /* Arrays.stream(evenNumbers).forEach(e-> System.out.println(e));*/
 
             int max =0;
-            n = evenNumbers.size();
+            n = evenNumbers.length;
             for(int i=0; i<n;i++){
 
-                for(int j=0; j<n;j++){
-                    int k = Math.abs(evenNumbers.get(i)-evenNumbers.get(j));
+                for( j=0; j<n;j++){
+                    int k = Math.abs(evenNumbers[i]-evenNumbers[j]);
                     if(k>max){
                         max = k;
                     }
@@ -38,7 +46,7 @@ public class AlgorithmDay1 {
         }
 
         public static int [] RandomNumber(){
-            int [] ints = new int [1500];
+            int [] ints = new int [1000];
             Random random = new Random();
 
             for (int i=0; i<ints.length;i++){
