@@ -50,9 +50,9 @@ public class AlgorithmDay1 {
             Random random = new Random();
 
             for (int i=0; i<ints.length;i++){
-                ints[i]=-1000 + new Random().nextInt(2001);;/*(int) (Math.random()*1000);*/
+                ints[i]=-1000 + new Random().nextInt(2001);
+                /*(int) (Math.random()*1000);*/
                 /* System.out.print(ints[i]+" <--> ");*/
-
             }
             return ints;
         }
