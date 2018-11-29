@@ -15,16 +15,16 @@ public class AlgorithmDay1 {
                 ints[i]=(int) (Math.random()*1000);
                 /*System.out.print(ints[i]+"-- ");*/
                 if(ints[i]%2==0){
-                    counter=counter+1;
+                    counter++;
                 }
             }
             int [] evenNumbers = new int[counter];
             int j=0;
-            n = ints.length;
+
             for (int i=0; i<n;i++){
                 if(ints[i]%2==0){
                     evenNumbers[j] = ints[i];
-                    j=j+1;
+                    j++;
                 }
             }
            /* Arrays.stream(evenNumbers).forEach(e-> System.out.println(e));*/
