@@ -1,0 +1,131 @@
+package Assignment_1;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Random;
+
+public class Day_1 {
+	public static int Algorithm_one(){
+		int [] ints = new int [10000];
+
+		int n = ints.length;
+		int counter=0;
+		for (int i=0; i<n;i++){
+			ints[i]=(int) (Math.random()*1000);
+			/*System.out.print(ints[i]+"-- ");*/
+			if(ints[i]%2==0){
+				counter++;
+			}
+		}
+		int [] evenNumbers = new int[counter];
+		int j=0;
+
+		for (int i=0; i<n;i++){
+			if(ints[i]%2==0){
+				evenNumbers[j] = ints[i];
+				j++;
+			}
+		}
+		/* Arrays.stream(evenNumbers).forEach(e-> System.out.println(e));*/
+
+		int max =0;
+		n = evenNumbers.length;
+		for(int i=0; i<n;i++){
+
+			for( j=0; j<n;j++){
+				int k = Math.abs(evenNumbers[i]-evenNumbers[j]);
+				if(k>max){
+					max = k;
+				}
+			}
+		}
+
+
+		return max;
+	}
+
+	public static int [] RandomNumber(){
+		int [] ints = new int [10000];
+		Random random = new Random();
+
+		for (int i=0; i<ints.length;i++){
+			ints[i]=-1000 + new Random().nextInt(2001);
+			/*(int) (Math.random()*1000);*/
+			/* System.out.print(ints[i]+" <--> ");*/
+		}
+		return ints;
+	}
+
+
+	public static int Algorithm_Two(){
+		int [] ints = RandomNumber();
+
+		int max =0;
+		int n = ints.length;
+		for(int i=0; n >i;i++){
+
+			if(ints[i]%2==0){
+				for(int j=i+1; n>j;j++){
+					if(ints[j]%2==0){
+						int k = Math.abs(ints[i]-ints[j]);
+						if(k>max){
+							max = k;
+						}
+					}
+				}
+			}
+		}
+
+		return max;
+	}
+
+
+	public static int Algorithm_3(){
+		int [] ints = RandomNumber();
+		int max=-1000; int min= 1000;
+		int n = ints.length;
+		for(int i=0; i<n ;i++) {
+			if (ints[i] % 2 == 0) {
+				if (max < ints[i]) {
+					max = ints[i];
+				}
+				if (min > ints[i]) {
+					min = ints[i];
+				}
+
+			}
+		}
+		return max-min;
+	}
+
+	public static int Algorithm_4(){
+		int [] ints = RandomNumber();
+		int max = Arrays.stream(ints).filter(e-> (e%2==0)).max().getAsInt();
+		int min = Arrays.stream(ints).filter(e-> (e%2==0)).min().getAsInt();
+		return max - min;
+	}
+
+	public static void main(String[] args) {
+
+		long startTime = System.currentTimeMillis();
+		System.out.println(Algorithm_one());
+		long endTime = System.currentTimeMillis();
+		System.out.println(endTime- startTime +" --> Milli Seconds! for Algorithm One");
+
+		long startTime1 = System.currentTimeMillis();
+		System.out.println(Algorithm_Two());
+		long endTime1 = System.currentTimeMillis();
+		System.out.println(endTime1- startTime1 +" --> Milli Seconds! for Algorithm Two");
+
+		long startTime2 = System.currentTimeMillis();
+		System.out.println(Algorithm_3());
+		long endTime2 = System.currentTimeMillis();
+		System.out.println(endTime2- startTime2 +" --> Milli Seconds! for Algorithm 3");
+
+		long startTime3= System.currentTimeMillis();
+		System.out.println(Algorithm_4());
+		long endTime3 = System.currentTimeMillis();
+		System.out.println(endTime3- startTime3 +" --> Milli Seconds! for Algorithm 4");
+	}
+
+}

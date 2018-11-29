@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12bb224e-9b65-4107-a6f7-5ee64421d992" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/WeekOne/AlgorithmDay1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WeekOne/AlgorithmDay1.java" afterDir="false" />
-    </list>
+    <list default="true" id="12bb224e-9b65-4107-a6f7-5ee64421d992" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +15,8 @@
       <file leaf-file-name="AlgorithmDay1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/WeekOne/AlgorithmDay1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+            <state relative-caret-position="56">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,6 +37,7 @@
     <findStrings>
       <find>counter</find>
       <find>1000</find>
+      <find>4000</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -195,16 +194,15 @@
       <option name="presentableId" value="Default" />
       <updated>1543276974642</updated>
       <workItem from="1543276979252" duration="1714000" />
-      <workItem from="1543338832322" duration="10417000" />
+      <workItem from="1543338832322" duration="11087000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12131000" />
+    <option name="totallyTimeSpent" value="12801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -216,11 +214,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.59133124" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34210527" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -255,8 +253,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WeekOne/AlgorithmDay1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+        <state relative-caret-position="56">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
