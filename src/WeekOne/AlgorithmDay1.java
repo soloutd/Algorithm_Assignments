@@ -7,7 +7,7 @@ public class AlgorithmDay1 {
 
 
         public static int Algorithm_one(){
-            int [] ints = new int [1000];
+            int [] ints = new int [10000];
 
             int n = ints.length;
             int counter=0;
@@ -46,7 +46,7 @@ public class AlgorithmDay1 {
         }
 
         public static int [] RandomNumber(){
-            int [] ints = new int [1000];
+            int [] ints = new int [10000];
             Random random = new Random();
 
             for (int i=0; i<ints.length;i++){
