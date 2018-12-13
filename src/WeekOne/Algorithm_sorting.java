@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 
-public class AlgorithmDay1 {
+public class Algorithm_sorting {
 
 
         public static int Algorithm_one(){
@@ -93,7 +93,6 @@ public class AlgorithmDay1 {
                     if (min > ints[i]) {
                         min = ints[i];
                     }
-
                 }
             }
             return max-min;
@@ -111,22 +110,22 @@ public class AlgorithmDay1 {
             long startTime = System.currentTimeMillis();
             System.out.println(Algorithm_one());
             long endTime = System.currentTimeMillis();
-            System.out.println(endTime- startTime +" --> Milli Seconds! for Algorithm One");
+            System.out.println(endTime - startTime +" --> Milli Seconds! for Algorithm One");
 
             long startTime1 = System.currentTimeMillis();
             System.out.println(Algorithm_Two());
             long endTime1 = System.currentTimeMillis();
-            System.out.println(endTime1- startTime1 +" --> Milli Seconds! for Algorithm Two");
+            System.out.println(endTime1 - startTime1 +" --> Milli Seconds! for Algorithm Two");
 
             long startTime2 = System.currentTimeMillis();
             System.out.println(Algorithm_3());
             long endTime2 = System.currentTimeMillis();
-            System.out.println(endTime2- startTime2 +" --> Milli Seconds! for Algorithm 3");
+            System.out.println(endTime2 - startTime2 +" --> Milli Seconds! for Algorithm 3");
 
             long startTime3= System.currentTimeMillis();
             System.out.println(Algorithm_4());
             long endTime3 = System.currentTimeMillis();
-            System.out.println(endTime3- startTime3 +" --> Milli Seconds! for Algorithm 4");
+            System.out.println(endTime3 - startTime3 +" --> Milli Seconds! for Algorithm 4");
         }
 
 }
