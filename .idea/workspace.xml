@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12bb224e-9b65-4107-a6f7-5ee64421d992" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/WeekOne/Algorithm_sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WeekOne/Algorithm_sorting.java" afterDir="false" />
-    </list>
+    <list default="true" id="12bb224e-9b65-4107-a6f7-5ee64421d992" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,8 +27,8 @@
       <file leaf-file-name="Linkned_List.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/WeekOne/Linkned_List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+            <state relative-caret-position="544">
+              <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -237,12 +235,12 @@
       <updated>1543276974642</updated>
       <workItem from="1543276979252" duration="1714000" />
       <workItem from="1543338832322" duration="14243000" />
-      <workItem from="1544717944690" duration="3000000" />
+      <workItem from="1544717944690" duration="3790000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18957000" />
+    <option name="totallyTimeSpent" value="19747000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -319,8 +317,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WeekOne/Linkned_List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        <state relative-caret-position="544">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
         </state>
       </provider>
     </entry>
