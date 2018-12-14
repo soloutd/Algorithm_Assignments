@@ -1,5 +1,5 @@
 package WeekOne;
-import java.util.ArrayList;
+
 import java.util.Arrays;
 import java.util.Random;
 
@@ -7,12 +7,12 @@ public class Algorithm_sorting {
 
 
         public static int Algorithm_one(){
-            int [] ints = new int [10000];
+            int [] ints = new int [100000];
 
             int n = ints.length;
             int counter=0;
             for (int i=0; i<n;i++){
-                ints[i]=(int) (Math.random()*1000);
+                ints[i]=(int) (Math.random()*100000);
                 /*System.out.print(ints[i]+"-- ");*/
                 if(ints[i]%2==0){
                     counter++;
@@ -46,7 +46,7 @@ public class Algorithm_sorting {
         }
 
         public static int [] RandomNumber(){
-            int [] ints = new int [10000];
+            int [] ints = new int [1000000];
             Random random = new Random();
 
             for (int i=0; i<ints.length;i++){

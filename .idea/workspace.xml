@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12bb224e-9b65-4107-a6f7-5ee64421d992" name="Default" comment="" />
+    <list default="true" id="12bb224e-9b65-4107-a6f7-5ee64421d992" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/WeekOne/Algorithm_sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WeekOne/Algorithm_sorting.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,14 +14,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Algorithm_sorting.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Algorithm_sorting.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WeekOne/Algorithm_sorting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="127" column="40" selection-start-line="127" selection-start-column="40" selection-end-line="127" selection-end-column="40" />
+            <state relative-caret-position="119">
+              <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Linkned_List.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/WeekOne/Linkned_List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -48,6 +59,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/WeekOne/AlgorithmDay1.java" />
         <option value="$PROJECT_DIR$/src/WeekOne/Algorithm_sorting.java" />
+        <option value="$PROJECT_DIR$/src/WeekOne/Linkned_List.java" />
       </list>
     </option>
   </component>
@@ -60,7 +72,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1" />
     <option name="y" value="-14" />
     <option name="width" value="1378" />
@@ -125,9 +137,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Linkned_List">
     <configuration name="AlgorithmDay1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WeekOne.AlgorithmDay1" />
+      <module name="Algorithm_Assignments" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WeekOne.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Algorithm_sorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WeekOne.Algorithm_sorting" />
+      <module name="Algorithm_Assignments" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WeekOne.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Linkned_List" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WeekOne.Linkned_List" />
       <module name="Algorithm_Assignments" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -178,8 +212,15 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.AlgorithmDay1" />
+      <item itemvalue="Application.Algorithm_sorting" />
+      <item itemvalue="Application.Linkned_List" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Linkned_List" />
+        <item itemvalue="Application.Algorithm_sorting" />
         <item itemvalue="Application.AlgorithmDay1" />
       </list>
     </recent_temporary>
@@ -196,19 +237,20 @@
       <updated>1543276974642</updated>
       <workItem from="1543276979252" duration="1714000" />
       <workItem from="1543338832322" duration="14243000" />
-      <workItem from="1544717944690" duration="758000" />
+      <workItem from="1544717944690" duration="3000000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16715000" />
+    <option name="totallyTimeSpent" value="18957000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32817337" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -216,11 +258,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4860681" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4860681" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -234,7 +276,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3289256" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,11 +309,18 @@
     <entry file="file://$PROJECT_DIR$/Word_Assignments/assignment-1/question_1/Algorithm_Assignments/src/Assignment_1/Day_1.java" />
     <entry file="file://$PROJECT_DIR$/src/WeekOne/Algorithm_sorting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="127" column="40" selection-start-line="127" selection-start-column="40" selection-end-line="127" selection-end-column="40" />
+        <state relative-caret-position="119">
+          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WeekOne/Linkned_List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
         </state>
       </provider>
     </entry>
